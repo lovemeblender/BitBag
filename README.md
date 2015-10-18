@@ -1,6 +1,6 @@
 # BitBag
 
-This is a simple dynamic boolean storage. If we use a boolean array then we need to allocate 8-bit for each value stored in the array. 
+BitBag is a simple dynamic boolean storage. If we use a boolean array then we need to allocate 8-bit for each value stored in the array. 
 
 However we can move to a bit level and exploit all bits (more on this later) in any Java's primitive type. A set bit would represent
 a true value and a non set bit a false value.
